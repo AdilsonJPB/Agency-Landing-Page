@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url(/assets/css/header.css);
+@import url(/assets/css/main.css);
+
+:root {
+    --cor_de_fundo-secao_primaria: #000816;
+    --cor-branca: #FFFFFF;
+    --cor-azul: #003BA4;
+    --cor-preta: rgb(255,255,255,8%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cor_de_fundo-secao_primaria);
+    margin: 0 10%;
+    color: var(--cor-branca);
+    font-family: "Outfit", sans-serif;
+}

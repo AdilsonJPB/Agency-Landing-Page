@@ -1,0 +1,31 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 96px;
+}
+
+.cabecalho_logo {
+    width: 60px;
+    height: 34.0px;
+}
+
+.navegacao_lista {
+    align-items: center;
+}
+
+.navegacao_lista {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.cabecalho_talktous {
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--cor-branca);
+    border-radius: 5px;
+    padding: 10px 30px;
+    gap: 10px;
+}
